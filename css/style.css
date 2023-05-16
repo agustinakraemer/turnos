@@ -19,7 +19,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary:  #65251a;
+  --primary:  #65251ab3;
   --secondary: #37373F;
   --success: #28a745;
   --info: #17a2b8;
@@ -158,7 +158,7 @@ a {
 }
 
 a:hover {
-  color: #65251a9d;
+  color: #5c332c;
   text-decoration: underline;
 }
 
