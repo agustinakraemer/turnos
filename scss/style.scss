@@ -2,6 +2,8 @@
 
 $primary: #65251a;
 $secondary: #37373F;
+$crema-texto: #d4ccc1;
+$crema-texto-oscuro: #bcb3a8;
 
 $font-family-sans-serif: 'Montserrat', sans-serif;
 
@@ -84,7 +86,7 @@ h4, h5, h6 {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: $primary;
+    color: $crema-texto-oscuro;
 }
 
 @media (max-width: 991.98px) {
