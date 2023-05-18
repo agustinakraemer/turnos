@@ -22,6 +22,7 @@
   --gray-dark: #343a40;
   --primary:  rgb(94, 40, 31);
   --primary-dark: #3c130c;
+  --brown: #64423c;
   --texto: #d4ccc1;
   --texto-oscuro: #9a9083;
   --background: #e2dcd8;
@@ -31,7 +32,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #262a2e;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -6400,6 +6401,14 @@ a.close.disabled {
   background-color: var(--primary-dark) !important;
   color: var(--texto) !important; 
 }
+.bg-black {
+  background-color: var(--dark) !important;
+  color: var(--texto) !important; 
+}
+.bg-crema {
+  background-color: var(--texto) !important;
+  color: var(--primary-dark) !important; 
+}
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -6484,7 +6493,10 @@ button.bg-dark:focus {
 .bg-white {
   background-color: var(--blanco) !important;
 }
-
+.bg-brown {
+  background-color: var(--brown) !important;
+  color: white !important;
+}
 .bg-transparent {
   background-color: transparent !important;
 }
