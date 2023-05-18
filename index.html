@@ -42,10 +42,6 @@
                             <i class="fa fa-envelope bg-text mr-2"></i>
                             <small>turnos.embajada.alemana@gmail.com</small>
                         </div>
-                        <div class="h-100 d-inline-flex align-items-center py-2 px-2">
-                            <i class="fa fa-phone-alt bg-text mr-2"></i>
-                            <small>+012 345 6789</small>
-                        </div>
                     </div>
                     <div class="col-lg-5 text-right">
                         <div class="d-inline-flex align-items-center p-2">
@@ -81,7 +77,7 @@
                             </div>
                             <a href="#contacto" class="nav-item nav-link">Contacto</a>
                         </div>
-                        <a href="https://api.whatsapp.com/send?phone=+541160088690&text=%C2%A1Hola!%20Mi%20nombre%20es%20...%20y%20necesito%20un%20turno%20para%20..." class="btn btn-crema mr-3 d-none d-lg-block">Obtener un Turno</a>
+                        <a href="https://api.whatsapp.com/send?phone=+541160088690&text=%C2%A1Hola!%20Mi%20nombre%20es%20...%20y%20necesito%20un%20turno%20para%20..." class="btn-crema mr-3 d-none d-lg-block">Contáctanos</a>
                     </div>
                 </nav>
             </div>
@@ -91,7 +87,7 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5">
+    <div class="container-fluid p-0 mb-5 pb-5 pt-4">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
@@ -200,13 +196,13 @@
 
 
     <!-- Appointment Start -->
-    <div class="container-fluid py-1" id="contacto">
-        <div class="container py-4">
+    <div class="container-fluid py-5" id="contacto">
+        <div class="container py-5">
             <div class="bg-appointment rounded">
                 <div class="row h-100 align-items-center justify-content-center">
                     <div class="col-lg-6 py-5">
                         <div class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
-                            <h1 class="text-center text-white mb-4">Get An Appointment</h1>
+                            <h1 class="text-center text-white mb-4">Obtener un turno</h1>
                             <form>
                                 <div class="form-group">
                                     <input type="text" class="form-control border-0 p-4" placeholder="Your Name" required="required" />
@@ -215,27 +211,20 @@
                                     <input type="email" class="form-control border-0 p-4" placeholder="Your Email" required="required" />
                                 </div>
                                 <div class="form-row">
-                                    <div class="col-6">
+                                    <div class="col-12">
                                         <div class="form-group">
-                                            <div class="date" id="date" data-target-input="nearest">
-                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Select Date" data-target="#date" data-toggle="datetimepicker"/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="form-group">
-                                            <div class="time" id="time" data-target-input="nearest">
-                                                <input type="text" class="form-control border-0 p-4 datetimepicker-input" placeholder="Select Time" data-target="#time" data-toggle="datetimepicker"/>
+                                            <div id="msj" data-target-input="nearest">
+                                                <input type="text" size="60" maxlength="6000" class="form-control border-0 p-4 msj" placeholder="Detalle" required="required" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <select class="custom-select border-0 px-4" style="height: 47px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 1</option>
-                                        <option value="3">Service 1</option>
+                                        <option selected>Seleccione el servicio</option>
+                                        <option value="1">Turno de Ciudadanía</option>
+                                        <option value="2">Turno de Pasaporte</option>
+                                        <option value="3">Turno de Asesoramiento</option>
                                     </select>
                                 </div>
                                 <div>
@@ -252,7 +241,7 @@
 
 
     <!-- Features Start -->
-    <div class="container-fluid py-4" id="nosotros">
+    <div class="container-fluid py-4 pt-6 padding-top" id="nosotros">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6" style="min-height: 500px;">
@@ -263,7 +252,7 @@
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="feature-text bg-white rounded p-lg-5">
                         <h6 class="text-uppercase">Our Features</h6>
-                        <h1 class="mb-4">Why Choose Us</h1>
+                        <h1 class="mb-4">Nuestro trabajo</h1>
                         <div class="d-flex mb-4">
                             <div class="btn-primary btn-lg-square px-3" style="border-radius: 50px;">
                                 <h5 class="text-primary m-0">01</h5>
@@ -318,8 +307,8 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center pb-5">
-                <h6 class="text-uppercase">Testimonial</h6>
-                <h1 class="mb-5">What Our Clients Say</h1>
+                <h6 class="text-uppercase">Opiniones</h6>
+                <h1 class="mb-5">Lo que dicen nuestros clientes</h1>
             </div>
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item">
@@ -367,6 +356,18 @@
                         <div class="pl-4">
                             <h5>Jorge</h5>
                             <p class="m-0">Ciudadanía</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-text position-relative bg-secondary text-light rounded p-5 mb-4">
+                        Sed ea amet kasd elitr stet nonumy, stet rebum et ipsum est duo elitr clita lorem
+                    </div>
+                    <div class="d-flex align-items-center pt-3">
+                        <img class="img-fluid rounded-circle" src="img/user.png" style="width: 80px; height: 80px;" alt="">
+                        <div class="pl-4">
+                            <h5>Roberto</h5>
+                            <p class="m-0">Pasaportes</p>
                         </div>
                     </div>
                 </div>
